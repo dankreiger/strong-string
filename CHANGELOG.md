@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/dankreiger/string-theory/compare/v1.0.1...v1.0.2) (2024-09-24)
+
+
+### Bug Fixes
+
+* good stuff again ([a83a8e3](https://github.com/dankreiger/string-theory/commit/a83a8e3d5d32625a2994f411912baf692df10d10))
+* good stuff again ([256b190](https://github.com/dankreiger/string-theory/commit/256b1907e5019bc95b302e6965796893c754a971))
+
 ## [1.0.1](https://github.com/dankreiger/string-theory/compare/v1.0.0...v1.0.1) (2024-09-24)
 
 
