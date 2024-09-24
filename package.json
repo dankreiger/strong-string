@@ -1,6 +1,6 @@
 {
   "name": "string-theory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strongly typed string methods",
   "keywords": [
     "string",
