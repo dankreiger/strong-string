@@ -29,6 +29,7 @@
     "globals": "^15.9.0",
     "lefthook": "^1.7.16",
     "prettier": "^3.3.3",
+    "semantic-release": "^24.1.1",
     "tsup": "8.3.0",
     "type-fest": "4.26.1",
     "typescript": "5.6.2",
