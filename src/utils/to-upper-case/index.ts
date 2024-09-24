@@ -1,1 +1,1 @@
-export * from './to-upper-case';
+export * from "./to-upper-case";

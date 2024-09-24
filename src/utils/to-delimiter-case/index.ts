@@ -1,1 +1,1 @@
-export * from './to-delimiter-case';
+export * from "./to-delimiter-case";

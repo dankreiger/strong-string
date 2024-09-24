@@ -7,7 +7,7 @@ import {
   snakeCase,
   toLower,
   toUpper,
-} from 'lodash-es';
+} from "lodash-es";
 import {
   type CamelCase,
   type DelimiterCase,
@@ -16,7 +16,7 @@ import {
   type ScreamingSnakeCase,
   type SnakeCase,
   type Split,
-} from 'type-fest';
+} from "type-fest";
 
 // Strongly typed to uppercase
 export const toUpperCase = <const T extends string>(x: T) =>
@@ -49,9 +49,9 @@ export const toScreamingSnakeCase = <const T extends string>(x: T) =>
 // Strongly typed to delimiter case
 export const toDelimiterCase = <const T extends string>(
   x: T,
-  delimiter: string
+  delimiter: string,
 ) =>
-  lodashJoin(lodashSplit(x, ' '), delimiter) as DelimiterCase<
+  lodashJoin(lodashSplit(x, " "), delimiter) as DelimiterCase<
     typeof x,
     typeof delimiter
   >;
@@ -59,11 +59,11 @@ export const toDelimiterCase = <const T extends string>(
 // Strongly typed split
 export const split = <const T extends string, const D extends string>(
   x: T,
-  delimiter: D
+  delimiter: D,
 ) => lodashSplit(x, delimiter) as Split<typeof x, typeof delimiter>;
 
 // Strongly typed join
 export const join = <const T extends string, const D extends string>(
   x: T[],
-  delimiter: D
+  delimiter: D,
 ) => lodashJoin(x, delimiter) as Join<typeof x, typeof delimiter>;
