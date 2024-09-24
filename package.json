@@ -1,6 +1,6 @@
 {
   "name": "strong-string",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Strongly typed string methods",
   "keywords": [
     "string",
