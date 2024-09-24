@@ -6,6 +6,10 @@
     "string",
     "typescript"
   ],
+  "homepage": "https://github.com/dankreiger/string-theory",
+  "bugs": {
+    "url": "https://github.com/dankreiger/string-theory/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dankreiger/string-theory.git"
