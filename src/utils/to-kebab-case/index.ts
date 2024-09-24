@@ -1,1 +1,1 @@
-export * from "./to-kebab-case";
+export * from './to-kebab-case';

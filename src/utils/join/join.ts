@@ -1,5 +1,5 @@
-import { join as lodashJoin } from "lodash-es";
-import { type Join } from "type-fest";
+import { join as lodashJoin } from 'lodash-es';
+import { type Join } from 'type-fest';
 
 // Strongly typed join
 export const join = <const T extends string, const D extends string>(
