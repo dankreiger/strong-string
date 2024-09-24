@@ -23,18 +23,32 @@
     "lodash-es": "4.17.21"
   },
   "devDependencies": {
-    "@eslint/js": "^9.11.1",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
+    "@eslint/js": "9.11.1",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "10.3.5",
+    "@semantic-release/npm": "12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
     "@types/lodash-es": "4.17.12",
-    "eslint": "^9.11.1",
-    "globals": "^15.9.0",
-    "lefthook": "^1.7.16",
-    "prettier": "^3.3.3",
-    "semantic-release": "^24.1.1",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "9.11.1",
+    "globals": "15.9.0",
+    "lefthook": "file:.7.16",
+    "prettier": "3.3.3",
+    "semantic-release": "24.1.1",
     "tsup": "8.3.0",
     "type-fest": "4.26.1",
     "typescript": "5.6.2",
-    "typescript-eslint": "^8.7.0",
+    "typescript-eslint": "8.7.0",
     "vitest": "2.1.1"
   },
-  "umd": "dist/index.global.js"
+  "umd": "dist/index.global.js",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
