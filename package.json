@@ -6,13 +6,13 @@
     "string",
     "typescript"
   ],
-  "homepage": "https://github.com/dankreiger/string-theory",
+  "homepage": "https://github.com/dankreiger/strong-string",
   "bugs": {
-    "url": "https://github.com/dankreiger/string-theory/issues"
+    "url": "https://github.com/dankreiger/strong-string/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dankreiger/string-theory.git"
+    "url": "https://github.com/dankreiger/strong-string.git"
   },
   "license": "ISC",
   "author": "Dan Kreiger <dankreiger@gmail.com>",
