@@ -1,0 +1,28 @@
+{
+  "name": "string-theory",
+  "version": "1.0.0",
+  "description": "Strongly typed string methods",
+  "umd": "dist/index.global.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "keywords": [
+    "string",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash-es": "4.17.12",
+    "tsup": "8.3.0",
+    "type-fest": "4.26.1",
+    "typescript": "5.6.2",
+    "vitest": "2.1.1"
+  },
+  "dependencies": {
+    "lodash-es": "4.17.21"
+  }
+}
