@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { toDelimiterCase } from "../..";
+import { toDelimiterCase } from "./to-delimiter-case";
 
 describe("toDelimiterCase", () => {
   it("should convert space to hyphen", () => {

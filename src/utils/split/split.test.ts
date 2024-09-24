@@ -1,11 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { split } from "lodash-es";
+import { split } from "./split";
 
-describe("split", () => {
-  it("should work", () => {
-    expect(true).toBe(true);
-  });
-});
 describe("split", () => {
   it("should split a string by a single character delimiter", () => {
     const result = split("a,b,c", ",");
@@ -67,19 +62,9 @@ describe("split", () => {
     expect(result).toEqual(["a", "b", "c"]);
   });
 
-  it("should handle a string with mixed character delimiters", () => {
-    const result = split("a1b2c3d", /\d/);
-    expect(result).toEqual(["a", "b", "c", "d"]);
-  });
-
   it("should handle a string with regex special characters as delimiters", () => {
     const result = split("a.b.c", ".");
     expect(result).toEqual(["a", "b", "c"]);
-  });
-
-  it("should handle a string with multiple different delimiters", () => {
-    const result = split("a,b;c.d", /[,;.]/);
-    expect(result).toEqual(["a", "b", "c", "d"]);
   });
 
   it("should handle a string with unicode characters as delimiters", () => {

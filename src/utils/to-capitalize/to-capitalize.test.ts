@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { toCapitalize } from "../..";
+import { toCapitalize } from "./to-capitalize";
 
 describe("toCapitalize", () => {
   it("should capitalize a single lowercase word", () => {

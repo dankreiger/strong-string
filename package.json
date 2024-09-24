@@ -2,30 +2,38 @@
   "name": "string-theory",
   "version": "1.0.0",
   "description": "Strongly typed string methods",
-  "umd": "dist/index.global.js",
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsup",
-    "test": "vitest"
-  },
   "keywords": [
     "string",
     "typescript"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dankreiger/string-theory.git"
+  },
   "license": "ISC",
+  "author": "Dan Kreiger <dankreiger@gmail.com>",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "lodash-es": "4.17.21"
+  },
   "devDependencies": {
+    "@eslint/js": "^9.11.1",
     "@types/lodash-es": "4.17.12",
     "eslint": "^9.11.1",
+    "globals": "^15.9.0",
     "lefthook": "^1.7.16",
     "prettier": "^3.3.3",
     "tsup": "8.3.0",
     "type-fest": "4.26.1",
     "typescript": "5.6.2",
+    "typescript-eslint": "^8.7.0",
     "vitest": "2.1.1"
   },
-  "dependencies": {
-    "lodash-es": "4.17.21"
-  }
+  "umd": "dist/index.global.js"
 }
