@@ -17,6 +17,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup",
+    "commit": "git-cz",
     "test": "vitest"
   },
   "dependencies": {
