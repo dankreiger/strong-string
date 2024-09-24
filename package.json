@@ -22,7 +22,13 @@
   "scripts": {
     "build": "tsup",
     "commit": "git-cz",
+    "lint": "eslint src",
     "test": "vitest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "lodash-es": "4.17.21"
@@ -50,10 +56,5 @@
     "typescript-eslint": "8.7.0",
     "vitest": "2.1.1"
   },
-  "umd": "dist/index.global.js",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+  "umd": "dist/index.global.js"
 }
