@@ -2,7 +2,7 @@ name: Main
 on: [push]
 
 permissions:
-  contents: read
+  contents: write
   issues: write
   pull-requests: write
   checks: write
@@ -20,5 +20,5 @@ jobs:
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
