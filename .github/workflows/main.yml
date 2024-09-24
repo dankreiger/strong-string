@@ -1,5 +1,11 @@
 name: Main
 on: [push]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+  checks: write
 jobs:
   build:
     runs-on: ubuntu-latest

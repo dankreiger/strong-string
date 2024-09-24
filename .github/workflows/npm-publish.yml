@@ -1,4 +1,9 @@
 name: Node.js Package
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+  checks: write
 
 on:
   release:
@@ -27,4 +32,5 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NOM_TOKEN: ${{secrets.NPM_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
