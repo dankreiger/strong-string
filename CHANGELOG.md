@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dankreiger/string-theory/compare/v1.0.2...v1.0.3) (2024-09-24)
+
+
+### Bug Fixes
+
+* update README ([b12c637](https://github.com/dankreiger/string-theory/commit/b12c63782245663c542ef7b440ab9794e786336b))
+
 ## [1.0.2](https://github.com/dankreiger/string-theory/compare/v1.0.1...v1.0.2) (2024-09-24)
 
 
