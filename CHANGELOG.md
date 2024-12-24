@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/dankreiger/strong-string/compare/v1.0.0...v1.0.1) (2024-12-24)
+
+
+### Bug Fixes
+
+* update exports ([ed03faf](https://github.com/dankreiger/strong-string/commit/ed03faf6462694aab5f141e5345624520f43b871))
+* update exports ([5ffdc2e](https://github.com/dankreiger/strong-string/commit/5ffdc2eaaa18804cd7172519ee297e72a60ca4f5))
+
 # 1.0.0 (2024-09-24)
 
 
